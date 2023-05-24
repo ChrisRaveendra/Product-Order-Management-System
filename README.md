@@ -20,6 +20,8 @@ This project allows users to create and manage products and orders. It provides 
 
 - **View Products**: Users can view a list of all products, including their details such as name, price, and quantity.
 
+![Product Add_Edit](https://github.com/ChrisRaveendra/Product-Order-Management-System/assets/14883146/028aefbb-a4df-414d-a046-839135e10d47)
+
 ### Orders
 
 - **Create Order**: Users can create new orders by specifying the following details:
@@ -37,6 +39,8 @@ This project allows users to create and manage products and orders. It provides 
   - Status: The current status of the order (e.g., pending, processing, shipped).
   - Tracking: The tracking information associated with the order.
   - Products: The list of products included in the order, along with their quantities.
+
+![Order Add_Edit](https://github.com/ChrisRaveendra/Product-Order-Management-System/assets/14883146/4602c0c3-b5ea-4539-861a-39fc41de3c51)
 
 ## Setup and Installation
 
