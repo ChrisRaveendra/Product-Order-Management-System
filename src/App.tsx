@@ -1,12 +1,9 @@
-import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import CustomHeader from './components/CustomHeader.jsx';
-import ProductDashboard from './views/ProductDashboard.jsx';
-import OrderDashboard from './views/OrderDashboard.jsx';
+import CustomHeader from './components/CustomHeader.tsx';
+import ProductDashboard from './views/ProductDashboard.tsx';
+import OrderDashboard from './views/OrderDashboard.tsx';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <Router>
       <div

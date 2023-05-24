@@ -1,6 +1,6 @@
 import { Button, Form, Modal, Select } from 'antd';
 import axios from 'axios';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 const { Option } = Select;
 
 const apiUrl =
@@ -8,7 +8,17 @@ const apiUrl =
 
 const quantityOptions = Array.from({ length: 100 }, (_, index) => index);
 
-const AddOrderModal = ({ visible, onCancel, onSave }) => {
+interface AddOrderModalProps {
+  visible: boolean;
+  onCancel: () => void;
+  onSave: () => void;
+}
+
+const AddOrderModal: React.FC<AddOrderModalProps> = ({
+  visible,
+  onCancel,
+  onSave,
+}) => {
   const [form] = Form.useForm();
   const [productLines, setProductLines] = useState([
     { product: null, quantity: null },

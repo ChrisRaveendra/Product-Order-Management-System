@@ -6,6 +6,8 @@ import EditProductModal from '../components/Product/EditProductModal';
 const apiUrl =
   import.meta.env.VITE_REACT_APP_API_URL || 'http://localhost:3000';
 
+console.log(import.meta.env);
+
 const ProductDashboard = () => {
   const [isAddModalVisible, setIsAddModalVisible] = useState(false);
   const [isEditModalVisible, setIsEditModalVisible] = useState(false);

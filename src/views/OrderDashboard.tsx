@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Button, Pagination, Table } from 'antd';
 import AddOrderModal from '../components/Order/AddOrderModal';
 import EditOrderModal from '../components/Order/EditOrderModal';
